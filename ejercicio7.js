@@ -1,18 +1,8 @@
-let numeroIngresado;
-while (true) {
-    numeroIngresado = prompt("Ingrese cantidad de repeticiones:");
-    numeroIngresado = Number(numeroIngresado);
+let ingresarTecla = prompt("Ingrese una Tecla");
 
-    if (!isNaN(numeroIngresado) && numeroIngresado > 0) {
-        break;
-    }
-
-    alert("Eso no es un número válido. Por favor, ingresa un número positivo.");
+if ((ingresarTecla == "Y") || (ingresarTecla == "y")) {
+    alert ("Correcto");
 }
-
-let textoIngresado = prompt("Ingrese un texto a repetir").toUpperCase();
-
-for (let index = 0; index < numeroIngresado; index++) {
-    console.log(textoIngresado);
+else {
+alert ("Incorrecto");
 }
-

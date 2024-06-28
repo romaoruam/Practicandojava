@@ -1,0 +1,20 @@
+function entrada() {
+        return prompt("Por favor, ingrese un valor:");
+    }
+    
+    let numeroEntrada = entrada();
+    alert("El valor ingresado es " + numeroEntrada);
+    
+    function procesamientoValor() {
+        numeroEntrada = numeroEntrada * 10;
+        alert("El valor ha sido multiplicado por 10.");
+        return numeroEntrada;
+    }
+    
+    function salida() {
+        let numeroProcesado = procesamientoValor();
+        alert("Su número procesado es: " + numeroProcesado);
+    }
+    
+    // Llamada a la función para mostrar el valor procesado
+    salida();

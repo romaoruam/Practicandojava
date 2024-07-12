@@ -24,3 +24,5 @@ let TiendaBotija= new Tienda (
 
 console.log(`Tienda: ${TiendaPendorcha.nombre}\nDirección: ${TiendaPendorcha.direccion}\nPropietario: ${TiendaPendorcha.propietario}\nRubro: ${TiendaPendorcha.rubro}`);
 
+console.log (TiendaJinete, TiendaBotija)
+
